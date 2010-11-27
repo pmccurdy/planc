@@ -19,10 +19,20 @@ width: 100%;
 
 }
 
+
+#home
+{
+
+height: 700px;
+width: 100%;
+
+}
+
 #content
 {
-/*height: 500px;*/
+/* height: 700px; */
 width: 100%;
+
 
 }
 
@@ -34,4 +44,19 @@ width: 100%;
 
 }
 
+
+.right
+{
+
+float: right;
+
+}
+
+
+.left
+{
+
+float: left;
+
+}
 

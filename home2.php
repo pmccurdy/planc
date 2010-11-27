@@ -20,6 +20,7 @@
 
 ?>
 <div id='home'>
+<div id='first'>
 <div class="left">
 Movies I'm Interesting
 	<table border="1">
@@ -49,6 +50,9 @@ Movies my friends are interesting
     <td><?php echo "<a href='$url'>$thumbnail</a>"; ?></td>
   </tr>
 </table>
+
+</div>
+
 
 </div>
 
