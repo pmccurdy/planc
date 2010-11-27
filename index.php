@@ -10,6 +10,7 @@
 	<div id="header">
 	
 	<a href="index.php?current=home">Home</a>
+	<a href="index.php?current=movies">Movies</a>
 	<a href="index.php?current=contact">Contact</a>
 	</div>
 
