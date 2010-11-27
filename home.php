@@ -21,7 +21,7 @@
 ?>
 <div id="top">
 <div class="left">
-Movies I'm Interesting
+Movies I'm interested in
 	<table border="1">
   <tr>
         <td><?php echo "<a href='$url'>$thumbnail</a>"; ?></td>
@@ -38,7 +38,7 @@ Movies I'm Interesting
 
 <div class="right">
 
-Movies my friends are interesting 
+Movies my friends are interested in 
 	<table border="1">
   <tr>
     <td><?php echo "<a href='$url'>$thumbnail</a>"; ?></td>
