@@ -1,12 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <?php 
 
+session_start();
 require("conf.php");
 require("open.php");
 
+if (array_key_exists('user', $_GET)) {
+    $_SESSION['user'] = intval($_GET['user']);
+}
 ?>
 
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 <head>
 <link href="style.css" rel="stylesheet" type="text/css">
