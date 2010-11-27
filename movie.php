@@ -26,8 +26,8 @@
     }
     echo("</table>");
 
-    if (array_key_exists('user', $_GET)) {
-        $user = intval($_GET['user']);
+    if (array_key_exists('user', $_SESSION)) {
+        $user = intval($_SESSION['user']);
         $movieid = mysql_real_escape_string($movie_url);
         echo("<h3>My friends interested in this movie:</h3>");
 
