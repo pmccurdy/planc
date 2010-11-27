@@ -1,4 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<?php 
+
+require("conf.php");
+//require("open.php");
+
+?>
 
 
 <html>
@@ -10,7 +16,9 @@
 	<div id="header">
 	
 	<a href="index.php?current=home">Home</a>
+	<a href="index.php?current=movie">Movies</a>
 	<a href="index.php?current=contact">Contact</a>
+	
 	</div>
 
 	<div id="content">
