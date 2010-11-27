@@ -1,7 +1,7 @@
 <?php
 // This is an example of config.php
 $dbhost = 'localhost';
-$dbuser = 'root';
-$dbpass = 'password';
+$dbuser = 'admin';
+$dbpass = 'admin';
 $dbname = 'plancDB';
 ?>

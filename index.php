@@ -2,7 +2,7 @@
 <?php 
 
 require("conf.php");
-//require("open.php");
+require("open.php");
 
 ?>
 
