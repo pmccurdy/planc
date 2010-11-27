@@ -19,7 +19,7 @@
 
 
 ?>
-<div id="top">
+<div id='home'>
 <div class="left">
 Movies I'm Interesting
 	<table border="1">
@@ -53,4 +53,3 @@ Movies my friends are interesting
 </div>
 
 </div>
-
