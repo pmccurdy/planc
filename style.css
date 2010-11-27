@@ -1,25 +1,35 @@
 body
 {
-/*background-color:#d0e4fe;*/
+
 }
-page
+#page
 {
-height: 1200px;
+margin: auto;
+padding: auto;
+height: auto;
 width: 800px;
 border: black solid 2px;
 }
 
-header
+#header
 {
+border-bottom: black solid 2px;
+height: 40px;
+width: 100%;
 
 }
 
-content
+#content
 {
+height: 500px;
+width: 100%;
 
 }
 
-footer
+#footer
 {
+border-top: black solid 2px;
+height: 40px;
+width: 100%;
 
 }

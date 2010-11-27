@@ -7,21 +7,44 @@
 </head>
 <body>
 <div id="page">
-	<div id="header"></div>
+	<div id="header">
+	
+	<a href="index.php?current=home">Home</a>
+	<a href="index.php?current=contact">Contact</a>
+	</div>
 
 	<div id="content">
-
 	
 	<?php
-
-		echo 'Bonjour';
-
-	?>
+	
+		if(isset($_GET["current"])){
+			
+			$current = $_GET["current"] . ".php";
+			
+		}else{
+			
+			$current = "home.php";
+			
+		}
+		
+		// On vérifie que le fichier éxiste bien
+		if(file_exists($current)){
+		
+			require($current);
+		
+		}else{
+			
+			//require(GAME::config("404-PAGE"));
+			//require("home.php");
+			
+		}
+		
+		?>
 
 	</div>
 
 	
-	<div id="footer"></div>
+	<div id="footer"> Footer</div>
 </div>
 
 </body>
