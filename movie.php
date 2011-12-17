@@ -69,7 +69,7 @@
         $movieid = mysql_real_escape_string($movie_url);
         echo("<h3>My friends interested in this movie:</h3>");
 
-        $rs = mysql_query("SELECT pp_id FROM plancDB.movie_list " . 
+        $rs = mysql_query("SELECT pp_id FROM plancDB.movie_list " .
             "WHERE pp_id != $user " .
             "AND ml_movie = '$movieid' ");
 
@@ -103,7 +103,7 @@
         }
 
         $rs = mysql_query("SELECT COUNT(pp_id) FROM plancDB.movie_list " .
-            "WHERE pp_id = $user " . 
+            "WHERE pp_id = $user " .
             "AND ml_movie = '$movieid' ");
 
         if (!$rs) {

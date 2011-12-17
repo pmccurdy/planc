@@ -1,19 +1,19 @@
 <?php
 
     $movie_url = "index.php?current=movie";
-    
+
     $handle = fopen("http://api.cineti.ca/movies.json", "r");
     $movies_json = stream_get_contents($handle);
     fclose($handle);
 
     $movies = json_decode($movies_json, TRUE);
     foreach ($movies as $movie) {
-        
+
     if (array_key_exists('thumbnail', $movie)) {
        $thumbnail = "<img src=" . $movie['thumbnail'] . ">";
        $url = $movie_url . "&movie=".$movie['href'];
-            
-           
+
+
         }
     }
 
@@ -39,7 +39,7 @@ Movies I'm interested in
 
 <div class="right">
 
-Movies my friends are interested in 
+Movies my friends are interested in
 	<table border="1">
   <tr>
     <td><?php echo "<a href='$url'>$thumbnail</a>"; ?></td>
